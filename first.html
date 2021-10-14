@@ -12,6 +12,19 @@
 <body>
     <h1>Suomi</h1>
     <p>
+        <label for="en">Etunimi</label> <br>
+        <input type="text" id="en"> <br>
+        <label for="sn">Sukunimi</label> <br>
+        <input type="text" id="sn"> <br> <br>
+        <button onclick="login()">Kirjaudu</button>
+    </p>
+
+    <p id="loginInfo">Tiedot:
+
+    </p>
+
+
+    <p>
         Suomen <i>pääkaupunki </i> on <span class="capital"><b>Helsinki</b></span>
 
     </p>
@@ -42,12 +55,6 @@
     <a href="second.html">Tietoa Ruotsista</a>
 </body>
 
-<script>
-    function btnClicked() {
-        console.log("Painoit buttonia");
-        alert("Painiketta painettiin")
-    }
-
-</script>
+<script src="js/myFunctions.js"></script>
 
 </html>
